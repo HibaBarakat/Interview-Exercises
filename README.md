@@ -40,7 +40,7 @@ visited >> to make sure that this node will not be visited again.
   > the polled code which contain of 4 slots, each slot moves step forward or step backwards so we need two for loops
   > check if the generated code is dead or visited if not add it to the queue and and visited 
   
-  keep loop until reach target
+ 5) keep loop until reach target
   
- >we check that it is not a deadend.
+
  
