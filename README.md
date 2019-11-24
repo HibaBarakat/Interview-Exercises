@@ -30,15 +30,15 @@ deadends >> if we reach one of the deadends then this way is locked and you can'
 visited >> to make sure that this node will not be visited again.
 
 2) define a distance variable.
-  > check if the target is ("0000") return 0
-  > if it is a deadend return -1 
+  >> check if the target is ("0000") return 0
+  >>if it is a deadend return -1 
 3) We will define a queue (BFS), the starting point ("0000") will be added to the queue.
 4) while the queue is not empty 
-  > the code will be polled from the queue
-  > check the code if it is a deadend so to continue
-  > check if the target equals the polled code so to return the distance
-  > the polled code which contain of 4 slots, each slot moves step forward or step backwards so we need two for loops
-  > check if the generated code is dead or visited if not add it to the queue and and visited 
+  >> the code will be polled from the queue
+  >>check the code if it is a deadend so to continue
+  >> check if the target equals the polled code so to return the distance
+  >> the polled code which contain of 4 slots, each slot moves step forward or step backwards so we need two for loops
+  >> check if the generated code is dead or visited if not add it to the queue and and visited 
   
  5) keep loop until reach target
   
